@@ -2,60 +2,165 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Privacy Policy / Polityka Prywatności</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy / Polityka Prywatności - Board Game Pick</title>
     <style>
-        .logo { max-width: 1024px; display: block; margin-bottom: 20px; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eeeeee;
+            padding-bottom: 20px;
+        }
+        .logo {
+            max-width: 1024px;
+            height: auto;
+        }
+        .lang-switch {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .lang-switch a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .lang-switch a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            font-size: 24px;
+            color: #111111;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #222222;
+            margin-top: 40px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 16px;
+            color: #333333;
+            margin-top: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #0066cc;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eeeeee;
+            margin: 40px 0;
+        }
     </style>
 </head>
 <body>
 
-    <img src="PrivacyPolicy.jpg" alt="Logo" class="logo">
+<div class="container">
 
-    <h1>Privacy Policy</h1>
-    <p>Effective date: 25.10.2026
-The data controller is Agata Kobusińska (contact: kobusinska.agatap@gmail.com). Board Game Pick helps you pick a board game from selected BoardGameGeek collection.
-1. Ads and Third-Party Services
-The app requires no account or sign-in. It displays advertisements provided by Google AdMob, which may collect device identifiers and usage data to serve ads. The app communicates with the Gemini API to process user requests, but does not collect or store personal data such as location, contacts, or photos on external servers.
-2. Data stored on your device
-BGG usernames you add, game lists, your edits to game details and downloaded cover images are stored only on your phone. You can delete them by removing a collection in the app, clearing the app's data or uninstalling it.
-3. BoardGameGeek
-To download a collection, the app sends the BGG username you enter and game IDs to the public BoardGameGeek API. Cover images are loaded from BGG servers. BoardGameGeek handles this data under its own privacy policy.
-4. AI assistant
-The AI assistant runs only when you write to it. It then sends: your question, recent messages from the conversation, the list of games in the selected collection (names and game parameters) and your device language. This goes to our relay server (hosted on Render) and on to Google Gemini, which generates the recommendations. Your BGG username is not sent. Our server does not store your questions; it forwards them and returns the answer. Google processes this data under the Gemini API terms. Please do not include personal information in your questions.
-5. Legal basis (GDPR)
-We process data to provide the feature you request (Art. 6(1)(b) GDPR) and in our legitimate interest in keeping the service running (Art. 6(1)(f) GDPR).
-6. Security
-All network traffic is encrypted (HTTPS). We do not sell data or share it for marketing.
-7. Your rights
-You have the right to access, correct and delete your data, to restrict or object to processing, and to lodge a complaint with a data protection authority. For privacy questions, write to kobusinska.agatap@gmail.com.
-8. Children
-The app is not directed at children under 13.
-9. Changes
-We will announce changes by updating this page and its effective date.</p>
+    <!-- Nagłówek z logo i przełącznikiem -->
+    <div class="header">
+        <img src="PrivacyPolicy.jpg" alt="Board Game Pick Logo" class="logo">
+        <div class="lang-switch">
+            <a href="#pl">PL</a> | <a href="#en">EN</a>
+        </div>
+    </div>
 
-    <br><hr><br>
+    <!-- ================= ENGLISH VERSION ================= -->
+    <div id="en">
+        <h2>[ENGLISH VERSION]</h2>
+        <h1>Privacy Policy</h1>
+        <p><strong>Effective date:</strong> 02.10.2026</p>
+        
+        <p>The data controller is Agata Kobusińska (contact: <a href="mailto:kobusinska.agatap@gmail.com">kobusinska.agatap@gmail.com</a>). <strong>Board Game Pick</strong> helps you pick a board game from selected BoardGameGeek collection.</p>
 
-    <h1>Polityka Prywatności</h1>
-    <p>Data wejścia w życie: 25.10.2026
-Administratorem danych jest Agata Kobusińska (kontakt: kobusinska.agatap@gmail.com). Board Game Pick pomaga wybrać grę planszową z określonej kolekcji z serwisu BoardGameGeek.
-1. Reklamy i usługi zewnętrzne
-Aplikacja nie wymaga zakładania konta ani logowania. Wyświetla reklamy dostarczane przez sieć Google AdMob, która może gromadzić identyfikatory urządzeń oraz dane o korzystaniu z reklam w celu ich personalizacji. Aplikacja komunikuje się z interfejsem API Gemini w celu przetwarzania zapytań użytkownika, jednak nie zbiera ani nie przechowuje na zewnętrznych serwerach danych osobowych, takich jak lokalizacja, kontakty czy zdjęcia.
-2. Dane przechowywane na urządzeniu
-Nazwy użytkowników BGG, których kolekcje dodasz, lista gier, Twoje zmiany w danych gier oraz pobrane okładki są zapisywane wyłącznie w pamięci telefonu. Usuniesz je, usuwając kolekcję w aplikacji, czyszcząc dane aplikacji lub ją odinstalowując.
-3. BoardGameGeek
-Aby pobrać kolekcję, aplikacja wysyła podaną przez Ciebie nazwę użytkownika BGG oraz identyfikatory gier do publicznego API serwisu BoardGameGeek. Okładki gier są pobierane z serwerów BGG. Te dane przetwarza BoardGameGeek zgodnie z własną polityką prywatności.
-4. Asystent AI
-Asystent AI działa tylko wtedy, gdy sam do niego napiszesz. Wysyłamy wówczas: treść pytania, ostatnie wiadomości z rozmowy, listę gier z wybranej kolekcji (nazwy i parametry gier) oraz język urządzenia. Dane trafiają do naszego serwera pośredniczącego (hosting: Render) i dalej do usługi Google Gemini, która generuje rekomendacje. Nie wysyłamy nazwy użytkownika BGG. Nasz serwer nie zapisuje treści zapytań; przekazuje je i zwraca odpowiedź. Google przetwarza te dane zgodnie z warunkami Gemini API. Nie wpisuj w pytaniach danych osobowych.
-5. Podstawa prawna (RODO)
-Dane przetwarzamy, aby wykonać funkcję, o którą prosisz (art. 6 ust. 1 lit. b RODO), oraz w prawnie uzasadnionym interesie zapewnienia działania usługi (art. 6 ust. 1 lit. f RODO).
-6. Bezpieczeństwo
-Cała komunikacja sieciowa jest szyfrowana (HTTPS). Nie sprzedajemy danych i nie udostępniamy ich w celach marketingowych.
-7. Twoje prawa
-Masz prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz skargi do Prezesa UODO. W sprawach prywatności napisz na kobusinska.agatap@gmail.com.
-8. Dzieci
-Aplikacja nie jest skierowana do dzieci poniżej 13 lat.
-9. Zmiany
-O zmianach polityki poinformujemy, aktualizując tę stronę i datę wejścia w życie.</p>
+        <h3>1. Ads and Third-Party Services</h3>
+        <p>The app requires no account or sign-in. It displays advertisements provided by Google AdMob, which may collect device identifiers and usage data to serve ads. The app communicates with the Gemini API to process user requests, but does not collect or store personal data such as location, contacts, or photos on external servers.</p>
+
+        <h3>2. Data stored on your device</h3>
+        <p>BGG usernames you add, game lists, your edits to game details and downloaded cover images are stored only on your phone. You can delete them by removing a collection in the app, clearing the app's data or uninstalling it.</p>
+
+        <h3>3. BoardGameGeek</h3>
+        <p>To download a collection, the app sends the BGG username you enter and game IDs to the public BoardGameGeek API. Cover images are loaded from BGG servers. BoardGameGeek handles this data under its own <a href="https://boardgamegeek.com/privacy" target="_blank">privacy policy</a>.</p>
+
+        <h3>4. AI assistant</h3>
+        <p>The AI assistant runs only when you write to it. It then sends: your question, recent messages from the conversation, the list of games in the selected collection (names and game parameters) and your device language. This goes to our relay server (hosted on Render) and on to Google Gemini, which generates the recommendations. Your BGG username is not sent. Our server does not store your questions; it forwards them and returns the answer. Google processes this data under the <a href="https://ai.google.dev/terms" target="_blank">Gemini API terms</a>. Please do not include personal information in your questions.</p>
+
+        <h3>5. Legal basis (GDPR)</h3>
+        <p>We process data to provide the feature you request (Art. 6(1)(b) GDPR) and in our legitimate interest in keeping the service running (Art. 6(1)(f) GDPR).</p>
+
+        <h3>6. Security</h3>
+        <p>All network traffic is encrypted (HTTPS). We do not sell data or share it for marketing.</p>
+
+        <h3>7. Your rights</h3>
+        <p>You have the right to access, correct and delete your data, to restrict or object to processing, and to lodge a complaint with a data protection authority. For privacy questions, write to <a href="mailto:kobusinska.agatap@gmail.com">kobusinska.agatap@gmail.com</a>.</p>
+
+        <h3>8. Children</h3>
+        <p>The app is not directed at children under 13.</p>
+
+        <h3>9. Changes</h3>
+        <p>We will announce changes by updating this page and its effective date.</p>
+    </div>
+
+    <hr>
+
+    <!-- ================= WERSJA POLSKA ================= -->
+    <div id="pl">
+        <h2>[WERSJA POLSKA]</h2>
+        <h1>Polityka prywatności</h1>
+        <p><strong>Data wejścia w życie:</strong> 02.10.2026</p>
+        
+        <p>Administratorem danych jest Agata Kobusińska (kontakt: <a href="mailto:kobusinska.agatap@gmail.com">kobusinska.agatap@gmail.com</a>). <strong>Board Game Pick</strong> pomaga wybrać grę planszową z określonej kolekcji z serwisu BoardGameGeek.</p>
+
+        <h3>1. Reklamy i usługi zewnętrzne</h3>
+        <p>Aplikacja nie wymaga zakładania konta ani logowania. Wyświetla reklamy dostarczane przez sieć Google AdMob, która może gromadzić identyfikatory urządzeń oraz dane o korzystaniu z reklam w celu ich personalizacji. Aplikacja komunikuje się z interfejsem API Gemini w celu przetwarzania zapytań użytkownika, jednak nie zbiera ani nie przechowuje na zewnętrznych serwerach danych osobowych, takich jak lokalizacja, kontakta czy zdjęcia.</p>
+
+        <h3>2. Dane przechowywane na urządzeniu</h3>
+        <p>Nazwy użytkowników BGG, których kolekcje dodasz, lista gier, Twoje zmiany w danych gier oraz pobrane okładki są zapisywane wyłącznie w pamięci telefonu. Usuniesz je, usuwając kolekcję w aplikacji, czyszcząc dane aplikacji lub ją odinstalowując.</p>
+
+        <h3>3. BoardGameGeek</h3>
+        <p>Aby pobrać kolekcję, aplikacja wysyła podaną przez Ciebie nazwę użytkownika BGG oraz identyfikatory gier do publicznego API serwisu BoardGameGeek. Okładki gier są pobierane z serwerów BGG. Te dane przetwarza BoardGameGeek zgodnie z własną <a href="https://boardgamegeek.com/privacy" target="_blank">polityką prywatności</a>.</p>
+
+        <h3>4. Asystent AI</h3>
+        <p>Asystent AI działa tylko wtedy, gdy sam do niego napiszesz. Wysyłamy wówczas: treść pytania, ostatnie wiadomości z rozmowy, listę gier z wybranej kolekcji (nazwy i parametry gier) oraz język urządzenia. Dane trafiają do naszego serwera pośredniczącego (hosting: Render) i dalej do usługi Google Gemini, która generuje rekomendacje. Nie wysyłamy nazwy użytkownika BGG. Nasz serwer nie zapisuje treści zapytań; przekazuje je i zwraca odpowiedź. Google przetwarza te dane zgodnie z <a href="https://ai.google.dev/terms" target="_blank">warunkami Gemini API</a>. Nie wpisuj w pytaniach danych osobowych.</p>
+
+        <h3>5. Podstawa prawna (RODO)</h3>
+        <p>Dane przetwarzamy, aby wykonać funkcję, o którą prosisz (art. 6 ust. 1 lit. b RODO), oraz w prawnie uzasadnionym interesie zapewnienia działania usługi (art. 6 ust. 1 lit. f RODO).</p>
+
+        <h3>6. Bezpieczeństwo</h3>
+        <p>Cała komunikacja sieciowa jest szyfrowana (HTTPS). Nie sprzedajemy danych i nie udostępniamy ich w celach marketingowych.</p>
+
+        <h3>7. Twoje prawa</h3>
+        <p>Masz prawo dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania, sprzeciwu oraz skargi do Prezesa UODO. W sprawach prywatności napisz na <a href="mailto:kobusinska.agatap@gmail.com">kobusinska.agatap@gmail.com</a>.</p>
+
+        <h3>8. Dzieci</h3>
+        <p>Aplikacja nie jest skierowana do dzieci poniżej 13 lat.</p>
+
+        <h3>9. Zmiany</h3>
+        <p>O zmianach polityki poinformujemy, aktualizując tę stronę i datę wejścia w życie.</p>
+    </div>
+
+</div>
 
 </body>
 </html>
