@@ -2,18 +2,85 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Board Game Pick</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Board Game Pick - Legal & Privacy</title>
     <style>
-        .header { display: flex; align-items: center; justify-content: space-between; }
-        .logo { max-width: 1024px; }
-        .lang-switch { font-family: sans-serif; font-weight: bold; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .logo {
+            max-width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 22px;
+            color: #111111;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666666;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            display: block;
+            background-color: #0066cc;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background-color 0.2s ease;
+        }
+        .btn:hover {
+            background-color: #0052a3;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 13px;
+            color: #888888;
+        }
     </style>
 </head>
 <body>
 
-    <div class="header">
-        <img src="banner.jpg" alt="Logo" class="logo">
+<div class="container">
+    <!-- Logo aplikacji -->
+    <img src="bannerj.jpg" alt="Board Game Pick Logo" class="logo">
+
+    <h1>Board Game Pick</h1>
+    <p>Wybierz dokument, który chcesz przeczytać / Select a document:</p>
+
+    <!-- Przyciski przekierowujące -->
+    <div class="links-wrapper">
+        <a href="privacy-policy.html" class="btn">Privacy Policy / Polityka Prywatności</a>
+        <a href="data-safety.html" class="btn">Data Safety / Bezpieczeństwo Danych</a>
     </div>
-  
+
+    <div class="footer">
+        &copy; Agata Kobusińska
+    </div>
+</div>
+
 </body>
 </html>
