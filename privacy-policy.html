@@ -34,7 +34,7 @@ body {
     padding-bottom: 20px;
 }
 .logo {
-    max-width: 240px;
+    max-width: 300px;
     width: 100%;
     height: auto;
     margin-bottom: 12px;
@@ -87,9 +87,14 @@ hr {
     color: #888888;
     text-align: center;
 }
+@media (min-width: 700px) {
+    .logo {
+        max-width: 600px;
+    }
+}
 @media (min-width: 1024px) {
     .logo {
-        max-width: 720px; /* Większe, wyraźne logo na dużym ekranie */
+        max-width: 720px;
     }
 }
 </style>
