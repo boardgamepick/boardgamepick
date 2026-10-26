@@ -1,0 +1,17 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.akobu.boardgamepick",
+      "sha256_cert_fingerprints": [
+        "C1:1E:71:D4:CD:0C:78:77:2D:F3:C7:4B:AE:24:96:FF:81:95:62:3D:26:AF:0A:AC:9E:06:19:80:40:72:51:13",
+        "B2:8A:D7:EC:AA:61:A9:AB:7C:A5:89:70:A3:22:56:E4:6D:3F:69:DD:7D:55:09:76:7C:7A:33:2A:B4:61:F7:56",
+        "CF:03:B2:79:D3:C8:DA:BD:E7:02:77:86:25:2F:85:4C:2C:E7:EC:86:29:69:E1:E0:91:53:B6:01:0F:B3:37:4C"
+      ]
+    }
+  }
+]
